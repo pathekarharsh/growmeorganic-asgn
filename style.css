@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+div{
+  font-family: 'Outfit', sans-serif;
+}
+
+form {
+  margin: auto;
+  width: 500px;
+  margin-top: 200px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+label {
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.fname, .cont, .elect{
+  display: flex;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(133, 133, 133);
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(23, 23, 23);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+
+  background-color: rgb(125, 125, 125);
+}
